@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+}
+.main-1{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 50px;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.nav ul li{
+    margin-right: 40px;
+    font-size: 19px;
+    font-weight: 600px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+ul li.active a{
+    color:rgba(13, 235, 161, 0.829);
+}
+.nav ul li a:hover{
+    color:rgba(13, 235, 161, 0.829);
+}
+.nav img{
+    height: 50px;
+    width: auto;
+    cursor: pointer;
+    color: rgba(13, 235, 161, 0.829);
+}
+.nav h2{
+    margin-right: 60px;
+    color: rgba(13, 235, 161, 0.829);
+}
+span{
+    color: black;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+   
+}
+.srch{
+     width: 200px;
+    height: 30px;
+    margin-top: 13px;
+    color: black;
+    font-size: 12px;
+    float: left;
+    border: 1px solid black;    
+    padding: 10px;
+}
+ .icon{
+    float: left;
+    width: 10px;
+    height: 8px;
+    margin-top: 13px;
+    color: white; 
+    border: 1px solid black;
+    border-left: none;    
+    padding: 10px; 
+   font-size: 15px;
+}
+.container{
+    background:url(background.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px; 
+    
+    
+}
+.container .content{
+    position: absolute;
+     top: 50%;
+    left: 50%; 
+    transform: translate(-50%,-50%);
+    color: white;
+    text-align: center;
+}
+.btn{
+border: 1px solid transparent;
+background-color: rgba(13, 235, 161, 0.829);
+color: white;
+padding: 5px 20px;
+font-size: 18px;
+transition: 0.5s ease;
+text-decoration: none;
+border-radius: 10px; 
+
+}
+.btn:hover{
+    color:white;
+    background-color: black;
+}
+.btn-1{
+    border: 1px solid #fff;
+    padding: 5px 20px;
+    color:#fff;
+    font-size: 18px;
+    transition: 0.5s ease;
+    text-decoration: none;
+    background-color:rgba(13, 235, 161, 0.829);
+    margin-top: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.btn-1:hover{
+    color:white;
+    background-color: black;
+}
+.heading{
+font-size: 50px;
+color:rgb(16, 180, 235) ;
+}
+.pra{
+    font-size: 20px;
+    color: lightblue;
+}
